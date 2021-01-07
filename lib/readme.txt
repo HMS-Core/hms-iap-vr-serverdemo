@@ -1,0 +1,6 @@
+如果你的系统是windows系统的话，system32下面如果没有以下2个dll将无法使用openssl内的函数
+libeay32.dll
+ssleay32.dll
+解决方法就是拷贝这2个dll至system32下面
+
+php_openssl.dll请放在ext目录下
